@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  PDFDemo
+//
+//  Created by k on 2018/3/7.
+//  Copyright © 2018年 wiseisland. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PDFSqlTool.h"
+#import "DownPDFTool.h"
+#import "SynthesizeSingleton.h"
+#import "UIView_MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "ReaderViewController.h"
+#import "NSString+Extent.h"
+
+#endif
+
+#define SCREEN_WIDTH            CGRectGetWidth([[UIScreen mainScreen] bounds])
+#define SCREEN_HEIGHT           CGRectGetHeight([[UIScreen mainScreen] bounds])
